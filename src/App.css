@@ -73,7 +73,7 @@ h3 {
 }
 
 .chat-window {
-  width: 420px;
+  width: 320px;
   height: auto;
   /* border : 1px solid blue; */
   display  : flex;
@@ -124,7 +124,7 @@ span {
 
 .chat-window .chat-body {
   /* height: calc(450px - (45px + 70px)); */
-height : 600px;
+height : 500px;
   width : 100%;
   border: 1px solid #263238;
   background: rgb(232, 232, 232);

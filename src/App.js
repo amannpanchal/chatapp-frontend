@@ -22,7 +22,7 @@ function App() {
       
       {!showChat ? (
         <div className="joinChatContainer">
-          <h3>Live Chat App</h3>
+          <h3>Live Chat </h3>
           <input
             type="text"
             placeholder="Enter your name..."

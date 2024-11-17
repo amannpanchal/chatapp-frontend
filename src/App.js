@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useState } from "react";
 import Chat from "./Chat";
 
-const socket = io.connect("https://yn2pjy-3001.csb.app");
+const socket = io.connect("https://chat-app-az0x.onrender.com");
 
 function App() {
   const [username, setUsername] = useState("");
@@ -22,7 +22,7 @@ function App() {
       
       {!showChat ? (
         <div className="joinChatContainer">
-          <h3>Live Chat </h3>
+          <h3>Babu Chat </h3>
           <input
             type="text"
             placeholder="Enter your name..."
